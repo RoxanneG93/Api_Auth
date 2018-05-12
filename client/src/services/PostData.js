@@ -10,10 +10,10 @@ export function PostData(type, userData){
 		})
 		    .then((response) => response.json())
 		    .then((responseJson) => {
-		      resolve(responseJson);
-		      // Me trying to figure out what is going on with the 
-		      // console.log('userdata', userData);
-		      // console.log('response',response);
+		      // resolve(responseJson);
+		    //   // Me trying to figure out what is going on with the 
+		      console.log('userdata', userData);
+		      console.log('responseJson',responseJson);
 		    })
 		    .catch((error) => {
 		    	reject(error);

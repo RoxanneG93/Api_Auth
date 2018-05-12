@@ -5,7 +5,7 @@ const LocalStrategy = require('passport-local').Strategy;
 const GooglePlusTokenStrategy = require('passport-google-plus-token');
 const FacebookTokenStrategy = require('passport-facebook-token');
 // const { JWT_SECRET } = require('./configuration');
-const config = require('./configuration');
+const config = require('./config');
 const User = require('./models/user');
 
 
